@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SimpleCalculator</string>
+    <string name="plus_button_label">PLUS</string>
+    <string name="minus_button_label">MINUS</string>
+    <string name="default_result_text">RESULT:</string>
+    <string name="results">RESULTS:</string>
+</resources>
