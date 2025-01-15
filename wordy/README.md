@@ -1,10 +1,8 @@
-# Android Project 1 - Wordy
+# Wordy
 
 @author **sike25**
 
 **Wordy** is an android app that recreates a simple version of the popular word game [Wordle](https://www.nytimes.com/games/wordle/index.html). 
-
-Time spent: **4** hours spent in total
 
 ## Required Features
 
