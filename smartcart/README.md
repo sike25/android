@@ -1,5 +1,6 @@
 ### SmartCart
-[SmartCart Demo](https://github.com/sike25/mobile_projects/assets/97693483/40cc01ba-7570-478f-8243-fad3441acbe4)
+
+https://github.com/user-attachments/assets/92f0f21f-a298-4d47-94f9-4208e4bd6cf3
 
 **Skills Practiced**  
 Compose, Persistence (Room), Navigation, UI (LazyColumn, Dialog, Floating Action Button, Progress Bar, Card, TopAppBar, Splash Screens, Spinner)  
