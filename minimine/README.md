@@ -1,5 +1,6 @@
 ### Minimine
-[Minimine Demo](https://github.com/sike25/mobile_projects/assets/97693483/75e32b92-9df7-4398-a2e0-d76bfb3538b6)
+[Minimine Demo](https://github.com/user-attachments/assets/822c7830-4514-4c83-87cb-3bd19e31d4c4)
+
 
 **Skills Practiced**   
 Kotlin, XML UI, Custom Views  
@@ -14,6 +15,10 @@ a minesweeper implementation.
   o If you did not hit a mine, a number appears on that field indicating how many mines are nearby.     
 
 The recursive property of exposing all safe connected cells when a safe cell is tried is implemented.  
+
+
+
+
 
 
 
