@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-https://user-images.githubusercontent.com/97693483/190042855-3ecd381f-ae0f-4878-b7ca-4a976a709aa5.mp4
+https://github.com/user-attachments/assets/509a0a68-cd5f-4e2d-b350-96683021be6c
 
 Video created with VRecorder
 
