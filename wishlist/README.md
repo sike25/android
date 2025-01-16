@@ -12,7 +12,7 @@ An app that helps the user keep track of what they want to buy.
 
 ## Video Walkthrough
 
-<img src='https://user-images.githubusercontent.com/97693483/229637953-5436bf0c-9fec-4d7f-af09-345f2f149d2f.mp4' title='Wishlist App Video Walkthrough' width='' alt='Video Walkthrough' />
+https://github.com/user-attachments/assets/7481f695-3b1b-4cab-9bef-2d3d7d43a3e3
 
 MP4 created with V Recorder
 
