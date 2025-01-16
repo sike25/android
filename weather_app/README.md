@@ -1,5 +1,5 @@
 ### Weather App
-[WeatherApp Demo](https://github.com/sike25/mobile_projects/assets/97693483/6ba2c46e-7269-4fac-93da-04345279e04d)  
+https://github.com/user-attachments/assets/10e92f72-ee5c-487f-ab89-dc7296b45303
 
 **Skills Practiced**   
 Retrofit, HTTP and Network Communication, APIs (GoogleMaps, OpenWeather), JSON parsing, Glide/Coil, Compose UI, Lottie Splash Screens.  
