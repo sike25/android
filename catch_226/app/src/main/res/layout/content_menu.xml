@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Menu">
+
+    <com.google.android.material.appbar.CollapsingToolbarLayout
+        android:id="@+id/toolbar_layout"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:fitsSystemWindows="true"
+        app:contentScrim="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed"
+        app:toolbarId="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:fontFamily="casual"
+            android:padding="10dp"
+            android:text="Stories this Spring"/>
+
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:visibility="invisible"
+            android:text="space"/>
+
+        <TextView
+            android:id="@+id/Alex"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/namebackground"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Alex"
+            android:fontFamily="serif"
+            android:layout_below="@id/space"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/Ally"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/Alex"
+            android:background="@drawable/namebackground"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Ally"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/Cristian"
+            android:background="@drawable/namebackground"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/Ally"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:fontFamily="serif"
+            android:text="Cristian" />
+
+        <TextView
+            android:id="@+id/Davis"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/Cristian"
+            android:background="@drawable/namebackground"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Davis"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/Eleanor"
+            android:background="@drawable/namebackground"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/Davis"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="Eleanor" />
+
+        <TextView
+            android:id="@+id/Maryam"
+            android:background="@drawable/namebackground"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/Eleanor"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="Maryam" />
+
+        <TextView
+            android:id="@+id/Matthew"
+            android:background="@drawable/namebackground"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/Maryam"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="Matthew" />
+
+        <TextView
+            android:id="@+id/Nora"
+            android:background="@drawable/namebackground"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/Matthew"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="Nora" />
+
+        <TextView
+            android:id="@+id/Rebecca"
+            android:background="@drawable/namebackground"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/Nora"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="Rebecca" />
+
+        <TextView
+            android:id="@+id/Sarah"
+            android:background="@drawable/namebackground"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/Rebecca"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="Sarah" />
+
+        <TextView
+            android:id="@+id/Sike"
+            android:background="@drawable/namebackground"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/Sarah"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="Sike" />
+
+        <TextView
+            android:id="@+id/Steven"
+            android:background="@drawable/namebackground"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/Sike"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="Steven" />
+
+        <TextView
+            android:id="@+id/Sydney"
+            android:background="@drawable/namebackground"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/Steven"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="Sydney" />
+
+        <TextView
+            android:id="@+id/Taku"
+            android:background="@drawable/namebackground"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/Sydney"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="Taku" />
+
+        <TextView
+            android:id="@+id/Wenche"
+            android:background="@drawable/namebackground"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/Taku"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:text="Wenche"
+            app:layout_anchor="@+id/Ally"
+            app:layout_anchorGravity="center" />
+        />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

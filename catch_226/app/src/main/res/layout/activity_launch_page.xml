@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Menu">
+
+    <TextView
+        android:id="@+id/catch22lettering"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Launch Catch 226"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_above="@id/readanim">
+    </TextView>
+    
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/readanim"
+        android:src="@drawable/readinganimation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+   </pl.droidsonroids.gif.GifImageView>
+
+</RelativeLayout>
