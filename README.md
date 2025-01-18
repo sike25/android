@@ -1,2 +1,2 @@
 # android
-four years of android dev projects
+collection of android dev projects
